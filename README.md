@@ -43,4 +43,4 @@ Each MAT file must be readable by `scipy.io.loadmat` and contain one scalar MATL
 - `recon_img_32`, `recon_img_64`, `recon_img_128`, or `recon_img_256`: the selected sparse-view reconstruction, controlled by `views`.
 - `recon_img_512`: the full-view reference image.
 
-Only the selected sparse-view field and the reference field are required for a given reader instance. Both must be finite, nonempty, real-valued 2D arrays with matching dimensions. All samples in one split must have the same image size. HDF5-based MATLAB v7.3 files are not supported by this reader.
+Only the selected sparse-view field and the reference field are required for a given reader instance. Both must be finite, nonempty, real-valued 2D arrays with matching dimensions. All samples in one split must have the same image size.
